@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    border-collapse: separate;
+    text-transform: capitalize;
+
+    thead th {
+      background-color: #F4F4F4;
+    }
+
+    th {
+      color: #555;
+      font-weight: 400;
+      text-align: left;
+      padding: 18px 15px;
+    }
+
+    tbody td {
+      background: #FFF;
+    }
+}

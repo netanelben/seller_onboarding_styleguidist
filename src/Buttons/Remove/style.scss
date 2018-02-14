@@ -1,0 +1,11 @@
+$btn-size: 15px;
+
+.remove {
+    background: transparent;
+    border: 0;
+    font-size: 0;
+    padding: 2px;
+    height: $btn-size;
+    width: $btn-size;
+    cursor: pointer;
+}

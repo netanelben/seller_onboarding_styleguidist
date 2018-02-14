@@ -1,0 +1,26 @@
+.section-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    min-height: 130px;
+
+    &:hover aside small {
+        display: block;
+        opacity: 1;
+        transition: opacity 0.4s;
+    }
+
+    aside {
+        flex: 1;
+        h3 {}
+        span {}
+        small {
+            opacity: 0;
+        }
+    }
+    
+    ul,
+    div {
+        flex: 2;
+    }
+}

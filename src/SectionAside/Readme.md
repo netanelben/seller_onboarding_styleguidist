@@ -1,0 +1,5 @@
+basic:
+
+```jsx
+<Section/>
+```
